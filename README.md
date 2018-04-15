@@ -1,7 +1,8 @@
 
 # **Traffic Sign Recognition** 
 
-**Objective : **
+**Objective :**
+
 The goals / steps of this project are the following:
 * Load the data set (see below for links to the project data set)
 * Explore, summarize and visualize the data set
@@ -17,8 +18,8 @@ The goals / steps of this project are the following:
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/RGB_Image.jpg "RGB_Image"
 [image5]: ./examples/Gray_Image.jpg "Gray_Image"
-[image6]: ./examples/Data_Visualization_1.jpg "Data_Visualization_1"
-[image7]: ./examples/Data_Visualization_2.jpg "Data_Visualization_2"
+[image6]: ./examples/Data_Visualization_1.JPG "Data_Visualization_1"
+[image7]: ./examples/Data_Visualization_2.JPG "Data_Visualization_2"
 
 
 [Test1]: ./Test_Images/3.jpg "1"
@@ -31,11 +32,11 @@ The goals / steps of this project are the following:
 [Test8]: ./Test_Images/33.jpg "8"
 [Test9]: ./Test_Images/38.jpg "9"
 
-[Result1]: ./examples/Prediction_1.jpg "P_1"
-[Result2]: ./examples/Prediction_2.jpg "P_2"
-[Result3]: ./examples/Prediction_3.jpg "P_3"
-[Result4]: ./examples/Prediction_4.jpg "P_4"
-[Result5]: ./examples/Prediction_5.jpg "P_5"
+[Result1]: ./examples/Prediction_1.JPG "P_1"
+[Result2]: ./examples/Prediction_2.JPG "P_2"
+[Result3]: ./examples/Prediction_3.JPG "P_3"
+[Result4]: ./examples/Prediction_4.JPG "P_4"
+[Result5]: ./examples/Prediction_5.JPG "P_5"
 
 
 ## Rubric Points
@@ -175,6 +176,7 @@ In this model, The validation accuracy is raised upto ~70. To further increase t
 | ReLU Activation														|
 | Drop out				| Drop out percentage 85%						|
 | Fully connected#3		| 120x84 input, 84x43 output					|
+
 With this model, I got around 89%. By tuning the hyper parameters, we can acheive the desired output. So, this model is selected for training.
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
@@ -227,11 +229,16 @@ If an iterative approach was chosen:
 
 Here are Nine German traffic signs that I found on the web:
 
-![alt text][Test1] ![alt text][Test2] ![alt text][Test3] 
-![alt text][Test4] ![alt text][Test5] ![alt text][Test6] 
-![alt text][Test7] ![alt text][Test8] ![alt text][Test9] 
+![alt text][Test1] 
+![alt text][Test2] 
+![alt text][Test3] 
+![alt text][Test4] 
+![alt text][Test5] 
+![alt text][Test6] 
+![alt text][Test7] 
+![alt text][Test8] 
+![alt text][Test9] 
 
-The first image might be difficult to classify because ...
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
