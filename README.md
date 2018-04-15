@@ -20,6 +20,7 @@ The goals / steps of this project are the following:
 [image6]: ./examples/Data_Visualization_1.jpg "Data_Visualization_1"
 [image7]: ./examples/Data_Visualization_2.jpg "Data_Visualization_2"
 
+
 [Test1]: ./Test_Images/3.jpg "1"
 [Test2]: ./Test_Images/4.jpg "2"
 [Test3]: ./Test_Images/11.jpg "3"
